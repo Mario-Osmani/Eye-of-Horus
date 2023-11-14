@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Eye Of Horus</title>
     <style>
@@ -11,71 +10,77 @@
         padding: 0;
         font-family: 'Roboto Condensed', sans-serif;
       }
-        body{
-          background-color: rgba(210,180,140,0.7);
-        }
-        main{
-          margin-top: 20px;
-          text-align: left;
-         margin-left: 10%;
-         margin-right: 10%; 
-        }
-        header {
-          background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(Images/british-library-Z5glwhD3LH8-unsplash.jpg);
-          background-size: cover;
-          background-position: center center;
-          background-repeat: no-repeat;
-         /*background-color: hsl(180, 100%, 25%);
-         background-color: rgba(0, 128, 128, 0.7);*/
-         color: #fff;
-         text-align: center; 
-         padding: 10px;
-         width: 100%;
-         
-       }
- 
-      
-       .logo img {
-         max-width: 60px; 
-         height: auto;
-       }
- 
-     
-       nav {
-         display: flex; 
-         justify-content: center; 
-         margin-top: 20px; 
-       }
- 
-       nav a {
-         color: #fcfcfc;
-         text-decoration: none;
-         font-weight: bold;
-         margin: 0 20px; 
-       }
- 
-       footer {
+      body{
+        background-color: rgba(210,180,140,0.7);
+        margin: 0;
+      }
+      main{
+        margin-top: 20px;
+        text-align: left;
+        margin-left: 5%;
+        margin-right: 5%; 
+      }
+      header {
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Images/british-library-Z5glwhD3LH8-unsplash.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center; 
+        padding: 10px;
         width: 100%;
-         background-color: #1033a6fc;
-         background-color: rgba(18, 64, 171,0.7);
-         color: #fff;
-         text-align: center;
-         padding: 10px;
-       }
-     </style>
+      }
+      .logo img {
+        max-width: 60px; 
+        height: auto;
+      }
+      nav {
+        display: flex; 
+        justify-content: center; 
+        margin-top: 20px; 
+      }
+      nav a {
+        color: #fcfcfc;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 0 20px; 
+      }
+      footer {
+        width: 100%;
+        background-color: #1033a6fc;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+     
+      @media screen and (max-width: 600px) {
+        body {
+          margin: 0;
+        }
+        main {
+          margin-left: 5%;
+          margin-right: 5%;
+        }
+        
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
 </head>
 <body>
-<header>
-<img class="logo" src="Images/eye_of_horus_meaning_480x480_b5720437-39bf-4e27-ba7c-4359c1ee9c7e_1200x1200.jpg" alt="Logo">
-<h1>The Eye Of Horus</h1> 
-<nav>
-<a href="index.html">Home</a>
-<a href="#explore">Explore</a>
-<a href="#about">About</a>
-<a href="register.html" target="_blank">Register</a>
-</nav>
-</header>
-<main>
+  <header>
+    <img class="logo" src="Images/eye_of_horus_meaning_480x480_b5720437-39bf-4e27-ba7c-4359c1ee9c7e_1200x1200.jpg" alt="Logo">
+    <h1>The Eye Of Horus</h1> 
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#explore">Explore</a>
+      <a href="#about">About</a>
+      <a href="#register" target="_blank">Register</a>
+    </nav>
+  </header>
+  <main>
   <h2 style="color: white ; font-family:Lobster; text-align:center;border: 2px solid white;" id="explore">Who is Horus?</h2><br><hr><br>
   <img src="Images/horus.png" alt="horus" style="width: 15%;text-align: center;height: auto;float: right;border: 3px solid black;">
   <p>In ancient Egyptian religion, Horus was a god in the form of a falcon whose right eye was the sun or morning star, representing power and quintessence, and whose left eye was the moon or evening star, representing healing. Falcon cults, which were in evidence from late predynastic times, were widespread in Egypt. Horus appeared as a local god in many places and under different names and epithets—for instance, as Harmakhis, Harpocrates, Harsiesis, Harakhte, and at Kawm Umbū (Kom Ombo), as Haroeris.
@@ -95,7 +100,7 @@
       The eye symbol was also rendered as a hieroglyph (𓂀). Egyptologists have long believed that hieroglyphs representing pieces of the symbol stand for fractions in ancient Egyptian mathematics, although this hypothesis has been challenged.</p>
 <br><br>
     </main> <br>
-<div class="about" style="margin-left: 10%;margin-right: 10%; margin-bottom: 20px">
+<div class="about" style="margin-left: 5%; margin-right: 5% ; margin-bottom: 20px">
   
   <h2 style="color:white;text-align: center;border-bottom: 1px dotted white;" id="about">About Us</h2><br> <br>
   <img src="Images/arkeolog.jpg" alt="" style="width:12%;height: auto;float: left; margin:-15px 10px 20px 30px; border: 3px solid black;">
@@ -104,6 +109,19 @@
     <br> <br>
     Together, we've meticulously crafted a diverse range of resources, from informative articles and captivating images to in-depth analyses and captivating videos, all aimed at shedding light on Horus's remarkable story. We invite you to join us on this odyssey, where we delve into the mythology, symbolism, and cultural impact of Horus, offering a profound understanding of one of Egypt's most revered gods. Explore, learn, and share in our passion for Horus, and feel free to reach out with any questions or feedback; we're here to make this ancient mythology come to life for you .</p>
 </div>
+
+<div id="register" style="padding: 10px;margin-top: 20px;margin-bottom: 20px;text-align: center;">
+    <hr><br>
+  <h3 style="text-align: center; color: white;"> Subscribe to Our Newsletter and Journey through Ancient Egypt's Mysteries!"</h2>
+  <form method="get" style="text-align: center;padding: 15px;">
+   Name: <input type="text" name="firstname"><br><br>
+    Email: <input type="email" name="Email" required placeholder="Example@example.com"> <br><br>
+    Password: <input type="password" name="password" min="5"><br>
+  </form>
+  <button style = "margin-top: 10px;padding: 5px;border-radius: 10px;background-color: brown;" > Register </button>
+
+</div>
+
 <footer>
 <p>&copf;[Copyright] [Privacy Policy] [Terms of Use] </p>
 </footer>
